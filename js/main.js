@@ -9,7 +9,7 @@
 let temperature = prompt("Température en celsius : ");
 
 // Transforme temperature en entier
-temperature = parseInt(temperature)
+temperature = parseFloat(temperature)
 
 //Si temperature n'est pas un nombre => erreur
 if (isNaN(temperature)){
