@@ -8,7 +8,7 @@
 
 let temperature = prompt("Température en celsius : ");
 
-// Transforme temperature en entier
+// Transforme temperature en float
 temperature = parseFloat(temperature)
 
 //Si temperature n'est pas un nombre => erreur
