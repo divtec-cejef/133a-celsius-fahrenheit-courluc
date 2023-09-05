@@ -18,7 +18,7 @@ La formule de conversion est la suivante :
 
 ### Bonus 
 Tester si la valeur saisie est bien un nombre avant de la convertir 
-et afficher un message d'erreur si ce n'est pas le cas.
+et afficher un messtemperature d'erreur si ce n'est pas le cas.
 
 Bonne chance !
 

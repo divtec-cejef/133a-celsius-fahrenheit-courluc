@@ -1,11 +1,20 @@
 /**
- * Fichier de base pour application web HTML/CSS/JS
- * @author  Steve Fallet
- * @version 0.2
- * @since   2019-08-19
+ * Transformation de température
+ * @author Lucien Courbat
+ * @version 0.0.1
+ * @since 2023-09-05
  */
-'use strict'; // Demande un interprétation stricte du code
+"use strict";
 
-let a = 'Bonjour';
+let temperature = prompt("Température en celsius : ");
 
-console.log(a);
+// Transforme temperature en entier
+temperature = parseInt(temperature)
+
+//Si temperature n'est pas un nombre => erreur
+if (isNaN(temperature)){
+    alert("Entrez un nombre !")
+} else {
+    //Affichage et calcul de la température
+    alert (` ${temperature} °C =  ${(temperature * 9/5) + 32}°F`);
+}
